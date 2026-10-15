@@ -20,6 +20,7 @@ header h1 {
 nav{
   background-color: #b9b560;
   text-transform:uppercase;
+  overflow: hidden;
 }
 
 nav ul{
@@ -35,5 +36,17 @@ nav li{
 }
 
 nav a {
-  color: #aa6d51
+  color: #aa6d51;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left:2rem;
 }
+
+nav a:hover {
+  background-color: black;
+  border-radius: 2rem;
+}
+
+

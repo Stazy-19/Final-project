@@ -30,4 +30,10 @@ nav ul{
 
 nav li{
   list-style-type: none;
+  padding: 1rem;
+  color: white;
+}
+
+nav a {
+  color: #aa6d51
 }
